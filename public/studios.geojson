@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luminous Studio",
+        "address": "Jl. Merdeka No. 123, Kota",
+        "type": "portrait",
+        "price": 250000,
+        "rating": 4,
+        "hours": "9AM - 6PM",
+        "openDuring": ["morning", "afternoon"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8456, -6.2088]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elegant Wedding Photos",
+        "address": "Jl. Sudirman No. 45, Kota",
+        "type": "wedding",
+        "price": 850000,
+        "rating": 5,
+        "hours": "10AM - 8PM",
+        "openDuring": ["morning", "afternoon", "evening"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8256, -6.1988]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Creative Shots",
+        "address": "Jl. Asia Afrika No. 78, Kota",
+        "type": "commercial",
+        "price": 450000,
+        "rating": 4,
+        "hours": "24 hours",
+        "openDuring": ["morning", "afternoon", "evening", "night"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8356, -6.2188]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fashion Focus",
+        "address": "Jl. Gatot Subroto No. 22, Kota",
+        "type": "fashion",
+        "price": 550000,
+        "rating": 5,
+        "hours": "11AM - 10PM",
+        "openDuring": ["morning", "afternoon", "evening"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8556, -6.2288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Product Perfect",
+        "address": "Jl. Thamrin No. 15, Kota",
+        "type": "product",
+        "price": 350000,
+        "rating": 3,
+        "hours": "8AM - 4PM",
+        "openDuring": ["morning", "afternoon"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8156, -6.1888]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Family Portraits",
+        "address": "Jl. Diponegoro No. 67, Kota",
+        "type": "portrait",
+        "price": 200000,
+        "rating": 4,
+        "hours": "9AM - 5PM",
+        "openDuring": ["morning", "afternoon"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8656, -6.2388]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moment Catchers",
+        "address": "Jl. Hayam Wuruk No. 33, Kota",
+        "type": "wedding",
+        "price": 750000,
+        "rating": 5,
+        "hours": "10AM - 9PM",
+        "openDuring": ["morning", "afternoon", "evening"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8056, -6.1788]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Budget Shots",
+        "address": "Jl. Kebon Sirih No. 55, Kota",
+        "type": "portrait",
+        "price": 75000,
+        "rating": 3,
+        "hours": "4PM - 12AM",
+        "openDuring": ["afternoon", "evening", "night"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8756, -6.2488]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.popup-content {
+  min-width: 200px;
+  padding: 10px;
+  font-family: "Space Mono", monospace;
+}
+
+/* Neo-brutalism styles */
+.neo-button {
+  background-color: #ffde59;
+  border: 3px solid #000;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.neo-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0px #000;
+}
+
+.neo-button:active {
+  transform: translate(5px, 5px);
+  box-shadow: 0px 0px 0px #000;
+}
+
+.neo-input {
+  background-color: #fff;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0px #000;
+  padding: 8px 12px;
+  font-family: "Space Mono", monospace;
+}
+
+.neo-card {
+  background-color: #fff;
+  border: 3px solid #000;
+  box-shadow: 8px 8px 0px #000;
+}
+
+.neo-popup .leaflet-popup-content-wrapper {
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 0;
+  box-shadow: 5px 5px 0px #000;
+  font-family: "Space Mono", monospace;
+}
+
+.neo-popup .leaflet-popup-tip {
+  background-color: #000;
+  box-shadow: none;
+}
+
+/* Custom scrollbar for sidebar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 2px solid #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5470;
+  border: 2px solid #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2c55;
+}
+
+/* Neo-brutalism marker styles */
+.neo-marker-icon {
+  background-color: #ff5470;
+  border: 3px solid #000;
+  border-radius: 50%;
+  box-shadow: 3px 3px 0px #000;
+}
